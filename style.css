@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p, a {
+    font-family: monospace, Monaco;
+    color: white;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;    
+}
+
+h2 {
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#myWork{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
